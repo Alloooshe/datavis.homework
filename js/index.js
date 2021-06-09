@@ -144,9 +144,9 @@ loadData().then(data => {
             d3.event.preventDefault();
                 });
 
+                iXbuABpiJT0kLP95SLre4Z7XmchGcouCmJlECda4b0LAKmNpcR
       
-      
-
+                G4ekUg9WXCQrpTskcESmvnDFq
         
         return;
     }
@@ -259,11 +259,11 @@ loadData().then(data => {
 
 async function loadData() {
     const data = { 
-        'population': await d3.csv('http://0.0.0.0:8000/datavis.homework/data/population.csv'),
-        'gdp': await d3.csv('http://0.0.0.0:8000/datavis.homework/data/gdp.csv'),
-        'child-mortality': await d3.csv('http://0.0.0.0:8000/datavis.homework/data/cmu5.csv'),
-        'life-expectancy': await d3.csv('http://0.0.0.0:8000/datavis.homework/data/life_expectancy.csv'),
-        'fertility-rate': await d3.csv('http://0.0.0.0:8000/datavis.homework/data/fertility-rate.csv')
+        'population': await d3.csv('https://alloooshe.github.io/datavis.homework/data/population.csv'),
+        'gdp': await d3.csv('https://alloooshe.github.io/datavis.homework/data/gdp.csv'),
+        'child-mortality': await d3.csv('https://alloooshe.github.io/datavis.homework/data/cmu5.csv'),
+        'life-expectancy': await d3.csv('https://alloooshe.github.io/datavis.homework/data/life_expectancy.csv'),
+        'fertility-rate': await d3.csv('https://alloooshe.github.io/datavis.homework/data/fertility-rate.csv')
     };
     
     return data.population.map(d=>{
