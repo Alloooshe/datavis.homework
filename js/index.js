@@ -144,10 +144,6 @@ loadData().then(data => {
             d3.event.preventDefault();
                 });
 
-                iXbuABpiJT0kLP95SLre4Z7XmchGcouCmJlECda4b0LAKmNpcR
-      
-                G4ekUg9WXCQrpTskcESmvnDFq
-        
         return;
     }
     const yearScale =d3.scaleLinear().domain([1800,2019]).range([margin*2, width-margin]);
